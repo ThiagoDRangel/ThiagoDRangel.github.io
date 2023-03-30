@@ -92,7 +92,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 2vh 5vw;
   }
 
   .profile-picture {
@@ -105,7 +104,6 @@
     padding: 10%;
     border: 2px solid #ccc;
     box-sizing: border-box;
-    margin-bottom: 5vh;
   }
 
   .titles-container {
@@ -116,7 +114,7 @@
   }
 
   .title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
   }
 
@@ -130,16 +128,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin: 5vh 0;
   }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-right: 0.5vw;
+  }
+  
+  .link-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2rem;
+  }
+  
 
   .button-container:hover {
     cursor: pointer;
-  }
-
-  .link-button {
-    margin-bottom: 2vh;
   }
 
   .icon {
@@ -150,7 +166,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5vh;
     font-size: 1rem;
   }
 

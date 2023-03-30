@@ -8,7 +8,7 @@ import '../styles/CardProjects.css';
 function CardProjects() {
   return (
     <main className="button-projects">
-      <h1 className="title-container">PROJECTS</h1>
+      <h1 className="title-container">Main Projects</h1>
         <section className="container-01">
           <Button
             icon={<GiMeal className="icon" />}
