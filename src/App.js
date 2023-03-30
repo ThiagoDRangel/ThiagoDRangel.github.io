@@ -4,7 +4,7 @@ import './styles/App.css';
 
 function App() {
   return (
-    <main>
+    <main className="container">
       <CardInfos />
       <CardProjects />
     </main>

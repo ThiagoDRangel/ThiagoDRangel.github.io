@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-import { SiJavascript } from 'react-icons/si';
 import Button from './Button';
 import '../styles/CardInfos.css';
 
@@ -20,24 +19,21 @@ function CardInfos() {
           icon={<FaLinkedin className="icon" />}
           link="https://www.linkedin.com/in/ThiagoDRangel/"
           className="link-button"
-          id="LinkedIn"
+          id=""
         />
         <Button
           icon={<FaGithub className="icon" />}
           link="https://github.com/ThiagoDRangel"
           className="link-button"
-          id="GitHub"
+          id=""
         />
         <Button
           icon={<FiMail className="icon" />}
           link="mailto:info.tec.campos@gmail.com"
           className="link-button"
-          id="Email"
+          id=""
         />
       </main>
-      <footer>
-        <span className="span-footer">Developed by <a href="https://github.com/ThiagoDRangel">ThiagoDRangel</a><SiJavascript /></span>
-      </footer>
     </div>
   );
 }
