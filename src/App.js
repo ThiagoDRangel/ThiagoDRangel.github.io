@@ -1,9 +1,10 @@
+import CardInfos from "./components/CardInfos";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+    <main>
+      <CardInfos />
+    </main>
   );
 }
 
