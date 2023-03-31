@@ -7,7 +7,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2rem 0;
 }
 
 .container-01,
@@ -15,7 +14,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1rem 0;
 }
 
 .button {
@@ -23,7 +21,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
   width: 150px;
   height: 150px;
   border-radius: 10px;
@@ -41,7 +38,6 @@ body {
 
 .icon {
   font-size: 3rem;
-  margin-bottom: 1rem;
 }
 
 #recipes {
@@ -69,7 +65,6 @@ body {
 }
 
 .footer {
-  margin-top: 2rem;
   text-align: center;
   font-size: 0.8rem;
 }
@@ -190,6 +185,28 @@ body {
   .container-01,
   .container-02 {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .button {
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+  }
+  .button-projects {
+    margin: 1.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .button {
+    width: 60px;
+    height: 60px;
+    margin: 1px;
+  }
+  .button-projects {
+    margin: 1.5rem 0;
   }
 }
 
